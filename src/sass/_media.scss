@@ -2,6 +2,15 @@
     .container{
         max-width: 750px;
     }
+    .comments{
+        &__item{
+            &__text{
+                &__descr{
+                    width:550px;
+                }
+            }
+        }
+    }
         
 }
 
@@ -34,6 +43,24 @@
             font-size: 15px;
         }
     }
+    .carousel{
+        &__inner{
+            width:500px;
+        }
+    }
+    .comments{
+        img{
+            width: 140px;
+            height: 140px;
+        }
+        &__item{
+            &__text{
+                &__descr{
+                    width:400px;
+                }
+            }
+        }
+    }
 }
 
 @media(max-width:576px){
@@ -53,6 +80,11 @@
             width: 100%;
             height: 55px;
             font-size: 14px;
+        }
+        &_catalog{
+            width: 131px;
+            height: 50px;
+            font-size: 16px;
         }
     }
     .promo{
@@ -101,6 +133,35 @@
         }
         &__h3{
             font-size: 15px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 350px;
+            margin-left: -10%;
+        }
+    }
+    .catalog{
+        &__tab{
+            font-size: 10px;
+        }
+    }
+    .comments{
+        &__item{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            
+            &__text{
+                margin-left: 0;
+                margin-bottom: 0;
+                margin-top: 50px;
+                text-align: center;
+                &__descr{
+                    width: 300px;
+                }
+            }
         }
     }
 }
@@ -123,6 +184,10 @@
             height: 55px;
             font-size: 14px;
         }
+        &_catalog{
+            width: 200px;
+            height: 100px;
+        }
     }
     .promo{
         &__header{
@@ -170,6 +235,12 @@
         }
         &__h3{
             font-size: 15px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width:250px;
+            margin-left: 5%;
         }
     }
     .feed-form{
